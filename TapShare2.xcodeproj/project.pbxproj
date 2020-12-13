@@ -1,0 +1,869 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D70EB4106F7AD0391CD1709 /* Pods_TapShare2_TapShare2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB31D8E27ABD0812796B7EA3 /* Pods_TapShare2_TapShare2UITests.framework */; };
+		351F0E421898490A32246B98 /* Pods_TapShare2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDACED902827C500CC6A4D63 /* Pods_TapShare2Tests.framework */; };
+		53F592FAE8FC9470E7834075 /* Pods_TapShare2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642082F865916ADDF7410EA1 /* Pods_TapShare2.framework */; };
+		951F745D257FFE1A0061F900 /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 951F745C257FFE1A0061F900 /* Chartboost.framework */; };
+		951F745F257FFEBF0061F900 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 951F745E257FFEBF0061F900 /* StoreKit.framework */; };
+		951F7461257FFEDA0061F900 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 951F7460257FFEDA0061F900 /* Foundation.framework */; };
+		951F7463257FFEEA0061F900 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 951F7462257FFEEA0061F900 /* CoreGraphics.framework */; };
+		951F7465257FFEFA0061F900 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 951F7464257FFEFA0061F900 /* WebKit.framework */; };
+		951F7467257FFF0F0061F900 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 951F7466257FFF0F0061F900 /* UIKit.framework */; };
+		9541766025360BE700135E6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9541765F25360BE700135E6E /* AppDelegate.swift */; };
+		9541766225360BE700135E6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9541766125360BE700135E6E /* SceneDelegate.swift */; };
+		9541766425360BE700135E6E /* Console.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9541766325360BE700135E6E /* Console.swift */; };
+		9541766725360BE700135E6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9541766525360BE700135E6E /* Main.storyboard */; };
+		9541766A25360BE700135E6E /* TapShare2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9541766825360BE700135E6E /* TapShare2.xcdatamodeld */; };
+		9541766F25360BEA00135E6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9541766D25360BEA00135E6E /* LaunchScreen.storyboard */; };
+		9541767A25360BEA00135E6E /* TapShare2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9541767925360BEA00135E6E /* TapShare2Tests.swift */; };
+		9541768525360BEA00135E6E /* TapShare2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9541768425360BEA00135E6E /* TapShare2UITests.swift */; };
+		954176C525361B1100135E6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954176C425361B1100135E6E /* ViewController.swift */; };
+		954176D02536300300135E6E /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954176CF2536300300135E6E /* PageController.swift */; };
+		954176D52536345400135E6E /* BuyNFC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954176D42536345400135E6E /* BuyNFC.swift */; };
+		954176DA2536423400135E6E /* pool.png in Resources */ = {isa = PBXBuildFile; fileRef = 954176D92536423300135E6E /* pool.png */; };
+		954176DF2536495D00135E6E /* SetUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954176DE2536495D00135E6E /* SetUp.swift */; };
+		954176E425365A5000135E6E /* tappopl.png in Resources */ = {isa = PBXBuildFile; fileRef = 954176E325365A4F00135E6E /* tappopl.png */; };
+		954176E925377B9A00135E6E /* swipe-right-icon-25.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 954176E825377B9800135E6E /* swipe-right-icon-25.jpg.png */; };
+		95417752253781CF00135E6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95417751253781CF00135E6E /* Assets.xcassets */; };
+		9541775A253782C000135E6E /* rightarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 95417759253782C000135E6E /* rightarrow.png */; };
+		9541775F253782E600135E6E /* appstore.png in Resources */ = {isa = PBXBuildFile; fileRef = 9541775E253782E600135E6E /* appstore.png */; };
+		954177642537849300135E6E /* TapPNG.png in Resources */ = {isa = PBXBuildFile; fileRef = 954177632537849200135E6E /* TapPNG.png */; };
+		956FB94725378D3A0003A207 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956FB94625378D3A0003A207 /* Home.swift */; };
+		956FB951253795610003A207 /* UsePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956FB950253795610003A207 /* UsePage.swift */; };
+		95A5E8872580014400721A7C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95A5E8862580014400721A7C /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9541767625360BEA00135E6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9541765425360BE700135E6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9541765B25360BE700135E6E;
+			remoteInfo = TapShare2;
+		};
+		9541768125360BEA00135E6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9541765425360BE700135E6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9541765B25360BE700135E6E;
+			remoteInfo = TapShare2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1051D7D0668D22402485249B /* Pods-TapShare2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapShare2Tests.debug.xcconfig"; path = "Target Support Files/Pods-TapShare2Tests/Pods-TapShare2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		332D95EA1F38A96027DB8C2C /* Pods-TapShare2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapShare2.debug.xcconfig"; path = "Target Support Files/Pods-TapShare2/Pods-TapShare2.debug.xcconfig"; sourceTree = "<group>"; };
+		536D3679A153591305768398 /* Pods-TapShare2-TapShare2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapShare2-TapShare2UITests.debug.xcconfig"; path = "Target Support Files/Pods-TapShare2-TapShare2UITests/Pods-TapShare2-TapShare2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5EE425E4DA2CAA337085C8E1 /* Pods-TapShare2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapShare2.release.xcconfig"; path = "Target Support Files/Pods-TapShare2/Pods-TapShare2.release.xcconfig"; sourceTree = "<group>"; };
+		642082F865916ADDF7410EA1 /* Pods_TapShare2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapShare2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7921E91660C620A4ED358058 /* Pods-TapShare2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapShare2Tests.release.xcconfig"; path = "Target Support Files/Pods-TapShare2Tests/Pods-TapShare2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		951F745C257FFE1A0061F900 /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Chartboost.framework; sourceTree = "<group>"; };
+		951F745E257FFEBF0061F900 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		951F7460257FFEDA0061F900 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		951F7462257FFEEA0061F900 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		951F7464257FFEFA0061F900 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		951F7466257FFF0F0061F900 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9541765C25360BE700135E6E /* TapShare2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapShare2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9541765F25360BE700135E6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9541766125360BE700135E6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9541766325360BE700135E6E /* Console.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Console.swift; sourceTree = "<group>"; };
+		9541766625360BE700135E6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9541766925360BE700135E6E /* TapShare2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TapShare2.xcdatamodel; sourceTree = "<group>"; };
+		9541766E25360BEA00135E6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9541767025360BEA00135E6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9541767525360BEA00135E6E /* TapShare2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapShare2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9541767925360BEA00135E6E /* TapShare2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapShare2Tests.swift; sourceTree = "<group>"; };
+		9541767B25360BEA00135E6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9541768025360BEA00135E6E /* TapShare2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapShare2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9541768425360BEA00135E6E /* TapShare2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapShare2UITests.swift; sourceTree = "<group>"; };
+		9541768625360BEA00135E6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9541769825360E7A00135E6E /* TapShare2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TapShare2.entitlements; sourceTree = "<group>"; };
+		954176C425361B1100135E6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		954176CF2536300300135E6E /* PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
+		954176D42536345400135E6E /* BuyNFC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyNFC.swift; sourceTree = "<group>"; };
+		954176D92536423300135E6E /* pool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pool.png; path = ../../../Downloads/pool.png; sourceTree = "<group>"; };
+		954176DE2536495D00135E6E /* SetUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUp.swift; sourceTree = "<group>"; };
+		954176E325365A4F00135E6E /* tappopl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tappopl.png; path = ../../../Downloads/tappopl.png; sourceTree = "<group>"; };
+		954176E825377B9800135E6E /* swipe-right-icon-25.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "swipe-right-icon-25.jpg.png"; path = "../../../Downloads/swipe-right-icon-25.jpg.png"; sourceTree = "<group>"; };
+		95417751253781CF00135E6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Downloads/AppIcons-13/Assets.xcassets"; sourceTree = "<group>"; };
+		95417759253782C000135E6E /* rightarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rightarrow.png; path = ../../../Downloads/rightarrow.png; sourceTree = "<group>"; };
+		9541775E253782E600135E6E /* appstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appstore.png; path = "../../../Downloads/AppIcons-11/appstore.png"; sourceTree = "<group>"; };
+		954177632537849200135E6E /* TapPNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TapPNG.png; path = ../../../Downloads/TapPNG.png; sourceTree = "<group>"; };
+		956FB94625378D3A0003A207 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		956FB950253795610003A207 /* UsePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsePage.swift; sourceTree = "<group>"; };
+		95A5E8862580014400721A7C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		95A5E88B2580023800721A7C /* ChartboostExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChartboostExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		CBC49F0B2D462760576B85E2 /* Pods-TapShare2-TapShare2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapShare2-TapShare2UITests.release.xcconfig"; path = "Target Support Files/Pods-TapShare2-TapShare2UITests/Pods-TapShare2-TapShare2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		DB31D8E27ABD0812796B7EA3 /* Pods_TapShare2_TapShare2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapShare2_TapShare2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDACED902827C500CC6A4D63 /* Pods_TapShare2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapShare2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9541765925360BE700135E6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A5E8872580014400721A7C /* AVFoundation.framework in Frameworks */,
+				951F745F257FFEBF0061F900 /* StoreKit.framework in Frameworks */,
+				53F592FAE8FC9470E7834075 /* Pods_TapShare2.framework in Frameworks */,
+				951F7465257FFEFA0061F900 /* WebKit.framework in Frameworks */,
+				951F745D257FFE1A0061F900 /* Chartboost.framework in Frameworks */,
+				951F7463257FFEEA0061F900 /* CoreGraphics.framework in Frameworks */,
+				951F7467257FFF0F0061F900 /* UIKit.framework in Frameworks */,
+				951F7461257FFEDA0061F900 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9541767225360BEA00135E6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351F0E421898490A32246B98 /* Pods_TapShare2Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9541767D25360BEA00135E6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D70EB4106F7AD0391CD1709 /* Pods_TapShare2_TapShare2UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30B49C4ECA795D9E3BE0D849 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				332D95EA1F38A96027DB8C2C /* Pods-TapShare2.debug.xcconfig */,
+				5EE425E4DA2CAA337085C8E1 /* Pods-TapShare2.release.xcconfig */,
+				536D3679A153591305768398 /* Pods-TapShare2-TapShare2UITests.debug.xcconfig */,
+				CBC49F0B2D462760576B85E2 /* Pods-TapShare2-TapShare2UITests.release.xcconfig */,
+				1051D7D0668D22402485249B /* Pods-TapShare2Tests.debug.xcconfig */,
+				7921E91660C620A4ED358058 /* Pods-TapShare2Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5BBD13DECA6230A5811680E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95A5E8862580014400721A7C /* AVFoundation.framework */,
+				951F7466257FFF0F0061F900 /* UIKit.framework */,
+				951F7464257FFEFA0061F900 /* WebKit.framework */,
+				951F7462257FFEEA0061F900 /* CoreGraphics.framework */,
+				951F7460257FFEDA0061F900 /* Foundation.framework */,
+				951F745E257FFEBF0061F900 /* StoreKit.framework */,
+				642082F865916ADDF7410EA1 /* Pods_TapShare2.framework */,
+				DB31D8E27ABD0812796B7EA3 /* Pods_TapShare2_TapShare2UITests.framework */,
+				EDACED902827C500CC6A4D63 /* Pods_TapShare2Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9541765325360BE700135E6E = {
+			isa = PBXGroup;
+			children = (
+				9541765E25360BE700135E6E /* TapShare2 */,
+				9541767825360BEA00135E6E /* TapShare2Tests */,
+				9541768325360BEA00135E6E /* TapShare2UITests */,
+				9541765D25360BE700135E6E /* Products */,
+				30B49C4ECA795D9E3BE0D849 /* Pods */,
+				5BBD13DECA6230A5811680E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9541765D25360BE700135E6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9541765C25360BE700135E6E /* TapShare2.app */,
+				9541767525360BEA00135E6E /* TapShare2Tests.xctest */,
+				9541768025360BEA00135E6E /* TapShare2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9541765E25360BE700135E6E /* TapShare2 */ = {
+			isa = PBXGroup;
+			children = (
+				951F745C257FFE1A0061F900 /* Chartboost.framework */,
+				9541769825360E7A00135E6E /* TapShare2.entitlements */,
+				9541765F25360BE700135E6E /* AppDelegate.swift */,
+				9541766125360BE700135E6E /* SceneDelegate.swift */,
+				9541766325360BE700135E6E /* Console.swift */,
+				956FB94625378D3A0003A207 /* Home.swift */,
+				956FB950253795610003A207 /* UsePage.swift */,
+				954176C425361B1100135E6E /* ViewController.swift */,
+				9541775E253782E600135E6E /* appstore.png */,
+				95417759253782C000135E6E /* rightarrow.png */,
+				9541766525360BE700135E6E /* Main.storyboard */,
+				954177632537849200135E6E /* TapPNG.png */,
+				954176E825377B9800135E6E /* swipe-right-icon-25.jpg.png */,
+				954176DE2536495D00135E6E /* SetUp.swift */,
+				954176D92536423300135E6E /* pool.png */,
+				954176E325365A4F00135E6E /* tappopl.png */,
+				954176D42536345400135E6E /* BuyNFC.swift */,
+				954176CF2536300300135E6E /* PageController.swift */,
+				95417751253781CF00135E6E /* Assets.xcassets */,
+				9541766D25360BEA00135E6E /* LaunchScreen.storyboard */,
+				9541767025360BEA00135E6E /* Info.plist */,
+				95A5E88B2580023800721A7C /* ChartboostExample-Bridging-Header.h */,
+				9541766825360BE700135E6E /* TapShare2.xcdatamodeld */,
+			);
+			path = TapShare2;
+			sourceTree = "<group>";
+		};
+		9541767825360BEA00135E6E /* TapShare2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9541767925360BEA00135E6E /* TapShare2Tests.swift */,
+				9541767B25360BEA00135E6E /* Info.plist */,
+			);
+			path = TapShare2Tests;
+			sourceTree = "<group>";
+		};
+		9541768325360BEA00135E6E /* TapShare2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9541768425360BEA00135E6E /* TapShare2UITests.swift */,
+				9541768625360BEA00135E6E /* Info.plist */,
+			);
+			path = TapShare2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9541765B25360BE700135E6E /* TapShare2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9541768925360BEA00135E6E /* Build configuration list for PBXNativeTarget "TapShare2" */;
+			buildPhases = (
+				BC7149181712AD95052BF531 /* [CP] Check Pods Manifest.lock */,
+				9541765825360BE700135E6E /* Sources */,
+				9541765925360BE700135E6E /* Frameworks */,
+				9541765A25360BE700135E6E /* Resources */,
+				B690680F34C446A9EDA45AE1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapShare2;
+			productName = TapShare2;
+			productReference = 9541765C25360BE700135E6E /* TapShare2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9541767425360BEA00135E6E /* TapShare2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9541768C25360BEA00135E6E /* Build configuration list for PBXNativeTarget "TapShare2Tests" */;
+			buildPhases = (
+				45DA3A765A4E1F287DC3B531 /* [CP] Check Pods Manifest.lock */,
+				9541767125360BEA00135E6E /* Sources */,
+				9541767225360BEA00135E6E /* Frameworks */,
+				9541767325360BEA00135E6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9541767725360BEA00135E6E /* PBXTargetDependency */,
+			);
+			name = TapShare2Tests;
+			productName = TapShare2Tests;
+			productReference = 9541767525360BEA00135E6E /* TapShare2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9541767F25360BEA00135E6E /* TapShare2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9541768F25360BEA00135E6E /* Build configuration list for PBXNativeTarget "TapShare2UITests" */;
+			buildPhases = (
+				457980329AD05DC94F6D97DC /* [CP] Check Pods Manifest.lock */,
+				9541767C25360BEA00135E6E /* Sources */,
+				9541767D25360BEA00135E6E /* Frameworks */,
+				9541767E25360BEA00135E6E /* Resources */,
+				06F37EBA5DD955C90D2921AE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9541768225360BEA00135E6E /* PBXTargetDependency */,
+			);
+			name = TapShare2UITests;
+			productName = TapShare2UITests;
+			productReference = 9541768025360BEA00135E6E /* TapShare2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9541765425360BE700135E6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					9541765B25360BE700135E6E = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					9541767425360BEA00135E6E = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 9541765B25360BE700135E6E;
+					};
+					9541767F25360BEA00135E6E = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 9541765B25360BE700135E6E;
+					};
+				};
+			};
+			buildConfigurationList = 9541765725360BE700135E6E /* Build configuration list for PBXProject "TapShare2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9541765325360BE700135E6E;
+			productRefGroup = 9541765D25360BE700135E6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9541765B25360BE700135E6E /* TapShare2 */,
+				9541767425360BEA00135E6E /* TapShare2Tests */,
+				9541767F25360BEA00135E6E /* TapShare2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9541765A25360BE700135E6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9541766F25360BEA00135E6E /* LaunchScreen.storyboard in Resources */,
+				954176DA2536423400135E6E /* pool.png in Resources */,
+				954176E925377B9A00135E6E /* swipe-right-icon-25.jpg.png in Resources */,
+				9541775A253782C000135E6E /* rightarrow.png in Resources */,
+				9541766725360BE700135E6E /* Main.storyboard in Resources */,
+				9541775F253782E600135E6E /* appstore.png in Resources */,
+				954177642537849300135E6E /* TapPNG.png in Resources */,
+				95417752253781CF00135E6E /* Assets.xcassets in Resources */,
+				954176E425365A5000135E6E /* tappopl.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9541767325360BEA00135E6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9541767E25360BEA00135E6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06F37EBA5DD955C90D2921AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TapShare2-TapShare2UITests/Pods-TapShare2-TapShare2UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TapShare2-TapShare2UITests/Pods-TapShare2-TapShare2UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TapShare2-TapShare2UITests/Pods-TapShare2-TapShare2UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		457980329AD05DC94F6D97DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TapShare2-TapShare2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45DA3A765A4E1F287DC3B531 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TapShare2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B690680F34C446A9EDA45AE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TapShare2/Pods-TapShare2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TapShare2/Pods-TapShare2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TapShare2/Pods-TapShare2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC7149181712AD95052BF531 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TapShare2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9541765825360BE700135E6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9541766A25360BE700135E6E /* TapShare2.xcdatamodeld in Sources */,
+				9541766425360BE700135E6E /* Console.swift in Sources */,
+				954176D02536300300135E6E /* PageController.swift in Sources */,
+				9541766025360BE700135E6E /* AppDelegate.swift in Sources */,
+				956FB94725378D3A0003A207 /* Home.swift in Sources */,
+				954176D52536345400135E6E /* BuyNFC.swift in Sources */,
+				9541766225360BE700135E6E /* SceneDelegate.swift in Sources */,
+				954176C525361B1100135E6E /* ViewController.swift in Sources */,
+				954176DF2536495D00135E6E /* SetUp.swift in Sources */,
+				956FB951253795610003A207 /* UsePage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9541767125360BEA00135E6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9541767A25360BEA00135E6E /* TapShare2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9541767C25360BEA00135E6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9541768525360BEA00135E6E /* TapShare2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9541767725360BEA00135E6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9541765B25360BE700135E6E /* TapShare2 */;
+			targetProxy = 9541767625360BEA00135E6E /* PBXContainerItemProxy */;
+		};
+		9541768225360BEA00135E6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9541765B25360BE700135E6E /* TapShare2 */;
+			targetProxy = 9541768125360BEA00135E6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9541766525360BE700135E6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9541766625360BE700135E6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9541766D25360BEA00135E6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9541766E25360BEA00135E6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9541768725360BEA00135E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ariwasch/Dev/TapShare2/TapShare2/ChartboostExample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9541768825360BEA00135E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ariwasch/Dev/TapShare2/TapShare2/ChartboostExample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9541768A25360BEA00135E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 332D95EA1F38A96027DB8C2C /* Pods-TapShare2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TapShare2/TapShare2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = 3K6Q4C6RYZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TapShare2",
+				);
+				INFOPLIST_FILE = TapShare2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ari-Wasch.TapLink";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ariwasch/Dev/TapShare2/TapShare2/ChartboostExample-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9541768B25360BEA00135E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EE425E4DA2CAA337085C8E1 /* Pods-TapShare2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TapShare2/TapShare2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = 3K6Q4C6RYZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TapShare2",
+				);
+				INFOPLIST_FILE = TapShare2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ari-Wasch.TapLink";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "/Users/ariwasch/Dev/TapShare2/TapShare2/ChartboostExample-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9541768D25360BEA00135E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1051D7D0668D22402485249B /* Pods-TapShare2Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K6Q4C6RYZ;
+				INFOPLIST_FILE = TapShare2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ari-Wasch.TapShare2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapShare2.app/TapShare2";
+			};
+			name = Debug;
+		};
+		9541768E25360BEA00135E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7921E91660C620A4ED358058 /* Pods-TapShare2Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K6Q4C6RYZ;
+				INFOPLIST_FILE = TapShare2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ari-Wasch.TapShare2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapShare2.app/TapShare2";
+			};
+			name = Release;
+		};
+		9541769025360BEA00135E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 536D3679A153591305768398 /* Pods-TapShare2-TapShare2UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K6Q4C6RYZ;
+				INFOPLIST_FILE = TapShare2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ari-Wasch.TapShare2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TapShare2;
+			};
+			name = Debug;
+		};
+		9541769125360BEA00135E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBC49F0B2D462760576B85E2 /* Pods-TapShare2-TapShare2UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K6Q4C6RYZ;
+				INFOPLIST_FILE = TapShare2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ari-Wasch.TapShare2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TapShare2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9541765725360BE700135E6E /* Build configuration list for PBXProject "TapShare2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9541768725360BEA00135E6E /* Debug */,
+				9541768825360BEA00135E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9541768925360BEA00135E6E /* Build configuration list for PBXNativeTarget "TapShare2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9541768A25360BEA00135E6E /* Debug */,
+				9541768B25360BEA00135E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9541768C25360BEA00135E6E /* Build configuration list for PBXNativeTarget "TapShare2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9541768D25360BEA00135E6E /* Debug */,
+				9541768E25360BEA00135E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9541768F25360BEA00135E6E /* Build configuration list for PBXNativeTarget "TapShare2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9541769025360BEA00135E6E /* Debug */,
+				9541769125360BEA00135E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9541766825360BE700135E6E /* TapShare2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9541766925360BE700135E6E /* TapShare2.xcdatamodel */,
+			);
+			currentVersion = 9541766925360BE700135E6E /* TapShare2.xcdatamodel */;
+			path = TapShare2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9541765425360BE700135E6E /* Project object */;
+}
